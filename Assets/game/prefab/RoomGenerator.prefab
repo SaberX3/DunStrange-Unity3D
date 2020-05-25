@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4371690612340052764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4371690612340052766}
+  - component: {fileID: 4371690612340052767}
+  m_Layer: 0
+  m_Name: RoomGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4371690612340052766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4371690612340052764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4371690613138821877}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4371690612340052767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4371690612340052764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457c1d9339fab7047bf61f73ae6d159a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 0
+  roomprefab: {fileID: 4224970015071742052, guid: 95cec88be898ab2418a62f91cf2d0812,
+    type: 3}
+  roomnum: 10
+  startcolor: {r: 0.2313373, g: 1, b: 0.2216981, a: 1}
+  endcolor: {r: 1, g: 0, b: 0, a: 1}
+  point: {fileID: 4371690613138821877}
+  xoffset: 35.25
+  yoffset: 21.5
+  roomlayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  roomlist: []
+  wallType:
+    singleLeft: {fileID: 4800201893257090454, guid: 0a9a601f94cd8fa428cedcc34355762e,
+      type: 3}
+    singleright: {fileID: 225843178335830106, guid: 7935013cff2ca384083f9e6e1d3e3de8,
+      type: 3}
+    singleup: {fileID: 5469021540445036833, guid: a2020a4746e1d8c40a74c3d8a7fc443f,
+      type: 3}
+    singdown: {fileID: 2260246245937860477, guid: a086286ec16f1a54d83c8db9c677bbb8,
+      type: 3}
+    doubleLR: {fileID: 7789871978024903087, guid: 422a73d78834fef4bb071e638a17df32,
+      type: 3}
+    doubleLU: {fileID: 6516571419110238417, guid: 65cc0eddd60d0d24ab4c6259b6655d93,
+      type: 3}
+    doubleLD: {fileID: 1038835672756482301, guid: f26141945e757d341bfed8b6a4d9b332,
+      type: 3}
+    doubleRU: {fileID: 7981308660929050828, guid: e5a3e3fc4f0ed3f4cb6c77cb7da4f1a2,
+      type: 3}
+    doubleRD: {fileID: 7366732876876868741, guid: 2eb0f841ce8d2574c95885b6c936f4e1,
+      type: 3}
+    doubleUD: {fileID: 5018096686529735866, guid: 92922adac79cd2845b6040f25428d584,
+      type: 3}
+    tripleLRU: {fileID: 6039810209708207225, guid: bfb1d46e000aed34680cdb149071a6ff,
+      type: 3}
+    tripleLRD: {fileID: 2246746964639975970, guid: 5d1f05c026a458643bfbada00a3a34d9,
+      type: 3}
+    tripleUDL: {fileID: 2181163545091601891, guid: 188738ea5bc054a4da4eb688b892a363,
+      type: 3}
+    tripleUDR: {fileID: 1433875193752184012, guid: 9a9b35c23c1d47d4cb7dda721b5cbd38,
+      type: 3}
+    fourDoors: {fileID: 643811585931840992, guid: 3670d82afaeeaee438a8af5b943d68b5,
+      type: 3}
+--- !u!1 &4371690613138821874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4371690613138821877}
+  m_Layer: 0
+  m_Name: point
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4371690613138821877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4371690613138821874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4371690612340052766}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

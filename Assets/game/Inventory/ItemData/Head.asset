@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7903e17a8e32e964d9a49cd847219563, type: 3}
+  m_Name: Head
+  m_EditorClassIdentifier: 
+  itemname: "\u7194\u5CA9\u5934\u76D4"
+  itemimg: {fileID: 21300026, guid: 03dd1ef6fb163214c9e1ac0242dab3ba, type: 3}
+  itmeinfo: "\u7194\u5CA9\u5934\u76D4\u6709\u7740\u826F\u597D\u7684\u6297\u51FB\u6253\u80FD\u529B\uFF0C\u88C5\u5907\u65F6\u6700\u5927\u751F\u547D\u503C+10,\u9632\u5FA1\u529B+3\u3002"
+  hpmax: 10
+  attack: 0
+  physicalstrength: 0
+  defense: 3
+  criticalrate: 0
+  dodgerate: 0
+  jumpnum: 0
